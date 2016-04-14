@@ -1,0 +1,96 @@
+16/04/13 23:20:31 ** --- MESSAGE BEGIN ---
+16/04/13 23:20:31 ** To: zxdsw199182@gmail.com
+16/04/13 23:20:31 ** Subject: Aliens Abducted Me - Abduction Report
+16/04/13 23:20:31 ** X-PHP-Originating-Script: 0:report.php
+16/04/13 23:20:31 ** From:zxdsw199182@gmail.com
+16/04/13 23:20:31 ** 
+16/04/13 23:20:31 ** 
+16/04/13 23:20:31 ** --- MESSAGE END ---
+16/04/13 23:20:31 ** Connecting to smtp.gmail.com:587
+16/04/13 23:20:31 ** Connected.
+16/04/13 23:20:31 << 220 smtp.gmail.com ESMTP d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:31 >> EHLO DESKTOP-LP87L22<EOL>
+16/04/13 23:20:31 << 250-smtp.gmail.com at your service, [132.205.229.33]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+16/04/13 23:20:31 ** Authenticating as zxdsw199182@gmail.com
+16/04/13 23:20:31 >> STARTTLS<EOL>
+16/04/13 23:20:31 << 220 2.0.0 Ready to start TLS<EOL>
+16/04/13 23:20:31 >> EHLO DESKTOP-LP87L22<EOL>
+16/04/13 23:20:31 << 250-smtp.gmail.com at your service, [132.205.229.33]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+16/04/13 23:20:31 >> AUTH LOGIN<EOL>
+16/04/13 23:20:32 << 334 VXNlcm5hbWU6<EOL>
+16/04/13 23:20:32 >> enhkc3cxOTkxODJAZ21haWwuY29t<EOL>
+16/04/13 23:20:32 << 334 UGFzc3dvcmQ6<EOL>
+16/04/13 23:20:32 >> MTk5MTgyeXlsemI=<EOL>
+16/04/13 23:20:32 << 235 2.7.0 Accepted<EOL>
+16/04/13 23:20:32 >> MAIL FROM: <zxdsw199182@gmail.com><EOL>
+16/04/13 23:20:32 << 250 2.1.0 OK d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:32 >> RCPT TO: <zxdsw199182@gmail.com><EOL>
+16/04/13 23:20:32 << 250 2.1.5 OK d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:32 >> DATA<EOL>
+16/04/13 23:20:32 << 354  Go ahead d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:32 >> Date: Wed, 13 Apr 2016 23:20:32 -0400<EOL>
+16/04/13 23:20:32 >> To: zxdsw199182@gmail.com<EOL>
+16/04/13 23:20:32 >> Subject: Aliens Abducted Me - Abduction Report<EOL>
+16/04/13 23:20:32 >> X-PHP-Originating-Script: 0:report.php<EOL>
+16/04/13 23:20:32 >> From:zxdsw199182@gmail.com<EOL>
+16/04/13 23:20:32 >> <EOL>
+16/04/13 23:20:32 >> <EOL>
+16/04/13 23:20:32 >> .<EOL>
+16/04/13 23:20:32 << 250 2.0.0 OK 1460604033 d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:32 >> QUIT<EOL>
+16/04/13 23:20:33 << 221 2.0.0 closing connection d12sm15065771qke.11 - gsmtp<EOL>
+16/04/13 23:20:33 ** Disconnected.
+16/04/13 23:20:33 ** Disconnected.
+16/04/13 23:20:33 ** Disconnected.
+16/04/13 23:20:59 ** --- MESSAGE BEGIN ---
+16/04/13 23:20:59 ** To: zxdsw199182@gmail.com
+16/04/13 23:20:59 ** Subject: Aliens Abducted Me - Abduction Report
+16/04/13 23:20:59 ** X-PHP-Originating-Script: 0:report.php
+16/04/13 23:20:59 ** From:zxdsw199182@gmail.com
+16/04/13 23:20:59 ** 
+16/04/13 23:20:59 ** YANG YU was abducted 233
+16/04/13 23:20:59 ** and was gone for 233.
+16/04/13 23:20:59 ** number of aliends many
+16/04/13 23:20:59 **  Fang spotted: no
+16/04/13 23:20:59 ** Other comments: 233
+16/04/13 23:20:59 ** --- MESSAGE END ---
+16/04/13 23:20:59 ** Connecting to smtp.gmail.com:587
+16/04/13 23:20:59 ** Connected.
+16/04/13 23:20:59 << 220 smtp.gmail.com ESMTP 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:20:59 >> EHLO DESKTOP-LP87L22<EOL>
+16/04/13 23:20:59 << 250-smtp.gmail.com at your service, [132.205.229.33]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+16/04/13 23:20:59 ** Authenticating as zxdsw199182@gmail.com
+16/04/13 23:20:59 >> STARTTLS<EOL>
+16/04/13 23:20:59 << 220 2.0.0 Ready to start TLS<EOL>
+16/04/13 23:20:59 >> EHLO DESKTOP-LP87L22<EOL>
+16/04/13 23:20:59 << 250-smtp.gmail.com at your service, [132.205.229.33]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+16/04/13 23:20:59 >> AUTH LOGIN<EOL>
+16/04/13 23:20:59 << 334 VXNlcm5hbWU6<EOL>
+16/04/13 23:20:59 >> enhkc3cxOTkxODJAZ21haWwuY29t<EOL>
+16/04/13 23:21:00 << 334 UGFzc3dvcmQ6<EOL>
+16/04/13 23:21:00 >> MTk5MTgyeXlsemI=<EOL>
+16/04/13 23:21:00 << 235 2.7.0 Accepted<EOL>
+16/04/13 23:21:00 >> MAIL FROM: <zxdsw199182@gmail.com><EOL>
+16/04/13 23:21:00 << 250 2.1.0 OK 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:21:00 >> RCPT TO: <zxdsw199182@gmail.com><EOL>
+16/04/13 23:21:00 << 250 2.1.5 OK 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:21:00 >> DATA<EOL>
+16/04/13 23:21:00 << 354  Go ahead 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:21:00 >> Date: Wed, 13 Apr 2016 23:21:00 -0400<EOL>
+16/04/13 23:21:00 >> To: zxdsw199182@gmail.com<EOL>
+16/04/13 23:21:00 >> Subject: Aliens Abducted Me - Abduction Report<EOL>
+16/04/13 23:21:00 >> X-PHP-Originating-Script: 0:report.php<EOL>
+16/04/13 23:21:00 >> From:zxdsw199182@gmail.com<EOL>
+16/04/13 23:21:00 >> <EOL>
+16/04/13 23:21:00 >> YANG YU was abducted 233<EOL>
+16/04/13 23:21:00 >> and was gone for 233.<EOL>
+16/04/13 23:21:00 >> number of aliends many<EOL>
+16/04/13 23:21:00 >>  Fang spotted: no<EOL>
+16/04/13 23:21:00 >> Other comments: 233<EOL>
+16/04/13 23:21:00 >> .<EOL>
+16/04/13 23:21:00 << 250 2.0.0 OK 1460604060 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:21:00 >> QUIT<EOL>
+16/04/13 23:21:00 << 221 2.0.0 closing connection 9sm16120839qgk.2 - gsmtp<EOL>
+16/04/13 23:21:00 ** Disconnected.
+16/04/13 23:21:00 ** Disconnected.
+16/04/13 23:21:00 ** Disconnected.

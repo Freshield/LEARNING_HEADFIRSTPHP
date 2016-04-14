@@ -28,7 +28,17 @@
         "number of aliends many\n".
         " Fang spotted: $fang_spootted\n".
         "Other comments: $other";
+    $to = "zxdsw199182@gmail.com";
+    $subject = "Aliens Abducted Me - Abduction Report";
 
+if (mail($to, $subject, $message, "From:".$email))
+{
+    echo 'success!<br>';
+}
+else
+{
+    echo 'fail';
+}
 echo 'Thanks for submitting the form.<br>';
 echo 'Your name is '.$name .'<br>';
 echo 'you were abducted ' .$when_it_happened .'<br>';
