@@ -15,6 +15,8 @@
  * Date: 2016/4/7
  * Time: 20:15
  */
+    $first_name = $_POST['firstname'];
+    $last_name = $_POST['lastname'];
     $name = $_POST['firstname'] .' ' .$_POST['lastname'];
     $when_it_happened = $_POST['whenithappened'];
     $how_long = $_POST['howlong'];
@@ -43,12 +45,15 @@ else
 $dbc = mysqli_connect('localhost','root','8888','aliendatabase')
 or die('Eroor connecting to MySQL server');
 
-$result = mysqli_query($dbc,'select * from aliens_abduction')
+$query = "insert into aliens_abduction (first_name,last_name,when_it_happened,how_long,fang_spootted,other,email) values 
+('$first_name','$last_name','$when_it_happened','$how_long','$fang_spootted','$other','$email');";
+
+
+$result = mysqli_query($dbc,$query)
 or die('Error querying database.');
 
 mysqli_close($dbc);
 
-echo $result;
 
 echo 'Thanks for submitting the form.<br>';
 echo 'Your name is '.$name .'<br>';

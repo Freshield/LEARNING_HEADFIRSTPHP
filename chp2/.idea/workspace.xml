@@ -32,27 +32,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testSQL.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testSQL.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSQL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="1008">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
                 <element signature="e#150#234#0#PHP" expanded="true" />
-                <marker date="1460663278096" expanded="true" signature="355:385" placeholder="select * fro... vol_msg" />
-                <marker date="1460663278096" expanded="true" signature="557:760" placeholder="insert into aliens_abduction... " />
+                <marker date="1460665281957" expanded="true" signature="356:386" placeholder="select * fro... vol_msg" />
+                <marker date="1460665281957" expanded="true" signature="550:749" placeholder="insert into aliens_abduction... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="47" column="121" selection-start-line="47" selection-start-column="121" selection-end-line="47" selection-end-column="121" />
               <folding>
-                <marker date="1460661129379" expanded="true" signature="1046:1076" placeholder="select * fro... aliens_abduction" />
+                <marker date="1460665362532" expanded="true" signature="1103:1310" placeholder="insert into aliens_abduction... " />
               </folding>
             </state>
           </provider>
@@ -64,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/report.php" />
         <option value="$PROJECT_DIR$/testSQL.php" />
+        <option value="$PROJECT_DIR$/report.php" />
       </list>
     </option>
   </component>
@@ -171,12 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1460656316962</updated>
-      <workItem from="1460656319214" duration="4130000" />
+      <workItem from="1460656319214" duration="5713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4130000" />
+    <option name="totallyTimeSpent" value="5713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -217,24 +217,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report.php">
+    <entry file="file://$PROJECT_DIR$/testSQL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="1008">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <marker date="1460661129379" expanded="true" signature="1046:1076" placeholder="select * fro... aliens_abduction" />
+            <element signature="e#150#234#0#PHP" expanded="true" />
+            <marker date="1460665281957" expanded="true" signature="356:386" placeholder="select * fro... vol_msg" />
+            <marker date="1460665281957" expanded="true" signature="550:749" placeholder="insert into aliens_abduction... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSQL.php">
+    <entry file="file://$PROJECT_DIR$/report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="768">
+          <caret line="47" column="121" selection-start-line="47" selection-start-column="121" selection-end-line="47" selection-end-column="121" />
           <folding>
-            <element signature="e#150#234#0#PHP" expanded="true" />
-            <marker date="1460663278096" expanded="true" signature="355:385" placeholder="select * fro... vol_msg" />
-            <marker date="1460663278096" expanded="true" signature="557:760" placeholder="insert into aliens_abduction... " />
+            <marker date="1460665362532" expanded="true" signature="1103:1310" placeholder="insert into aliens_abduction... " />
           </folding>
         </state>
       </provider>

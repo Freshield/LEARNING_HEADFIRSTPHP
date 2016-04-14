@@ -17,24 +17,22 @@
  * Time: 15:01
  */
 
-echo "here1";
-$connect = mysqli_connect('localhost','root','8888','aliendatabase') or die('Unale to connect');
-$sql = "select * from aliens_abduction";
-$result = mysqli_query($connect,$sql);
-while($row = mysqli_fetch_row($result)){
-    echo "$row[0] $row[1] $row[2] $row[3] $row[4] $row[5]";
-}
+$dbc = mysqli_connect('localhost','root','8888','aliendatabase')
+or die('Eroor connecting to MySQL server');
 
-echo "here2";
-//$query = "insert into aliens_abduction (first_name,last_name,when_it_happened,how_long,//fang_spootted,other,email) values
-//('sally1','jones','3 days ago','1 day','yes','may seen your dog','sally@gregs-list.net');";
+//$sql = "select * from aliens_abduction";
+//$result = mysqli_query($connect,$sql);
+//while($row = mysqli_fetch_row($result)){
+//    echo "$row[0] $row[1] $row[2] $row[3] $row[4] $row[5]";
+//}
 
-echo "here3";
-//$result = mysqli_query($connect,$query)
-//    or die('Error querying database.');
+$query = "insert into aliens_abduction (first_name,last_name,when_it_happened,how_long,fang_spootted,other,email) values
+('sally1','jones','3 days ago','1 day','yes','may seen your dog','sally@gregs-list.net');";
 
-echo "here4";
-mysqli_close($connect);
+$result = mysqli_query($dbc,$query)
+    or die('Error querying database.');
+
+mysqli_close($dbc);
 
 echo $query ."<br>";
 
