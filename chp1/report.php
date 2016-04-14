@@ -22,6 +22,13 @@
     $email = $_POST['email'];
     $other = $_POST['other'];
 
+    $message =
+        "$name was abducted $when_it_happened\n".
+        "and was gone for $how_long.\n".
+        "number of aliends many\n".
+        " Fang spotted: $fang_spootted\n".
+        "Other comments: $other";
+
 echo 'Thanks for submitting the form.<br>';
 echo 'Your name is '.$name .'<br>';
 echo 'you were abducted ' .$when_it_happened .'<br>';
