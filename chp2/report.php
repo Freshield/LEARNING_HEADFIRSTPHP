@@ -30,7 +30,7 @@
         "Other comments: $other";
     $to = "zxdsw199182@gmail.com";
     $subject = "Aliens Abducted Me - Abduction Report";
-
+/*
 if (mail($to, $subject, $message, "From:".$email))
 {
     echo 'success!<br>';
@@ -38,7 +38,18 @@ if (mail($to, $subject, $message, "From:".$email))
 else
 {
     echo 'fail';
-}
+}*/
+
+$dbc = mysqli_connect('localhost','root','8888','aliendatabase')
+or die('Eroor connecting to MySQL server');
+
+$result = mysqli_query($dbc,'select * from aliens_abduction')
+or die('Error querying database.');
+
+mysqli_close($dbc);
+
+echo $result;
+
 echo 'Thanks for submitting the form.<br>';
 echo 'Your name is '.$name .'<br>';
 echo 'you were abducted ' .$when_it_happened .'<br>';
