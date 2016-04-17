@@ -63,11 +63,11 @@
       <file leaf-file-name="sendemail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sendemail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+            <state relative-caret-position="675">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1460850519423" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+                <marker date="1460852311753" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
               </folding>
             </state>
           </provider>
@@ -200,12 +200,12 @@
       <updated>1460757619915</updated>
       <workItem from="1460757621056" duration="2154000" />
       <workItem from="1460766362696" duration="322000" />
-      <workItem from="1460847578691" duration="2466000" />
+      <workItem from="1460847578691" duration="3202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4942000" />
+    <option name="totallyTimeSpent" value="5678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -310,16 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendemail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addemail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -332,13 +322,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sendemail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sendemail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        <state relative-caret-position="675">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1460850519423" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+            <marker date="1460852311753" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
           </folding>
         </state>
       </provider>

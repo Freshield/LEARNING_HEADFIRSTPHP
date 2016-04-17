@@ -11,13 +11,20 @@ $subject = $_POST['subject'];
 $text = $_POST['elvismail'];
 
 $query = "select * from email_list";
-$dbc = mysqli_connect('localhost','root','8888','elvis_store');
-$result = mysqli_query($dbc,$query);
+$dbc = mysqli_connect('localhost','root','8888','elvis_store') or die("Error connecting to MySQL");
+$result = mysqli_query($dbc,$query) or die("Error querying database");
 
 while ($row = mysqli_fetch_array($result)){
-    echo $row['first_name'] . ' ' . $row['last_name'] . ' : ' . $row['email'] . '<br>';
-    echo "{$row['first_name']} {$row['last_name']} : {$row['email']}<br>";
+    $firstname = $row['first_name'];
+    $lastname = $row['last_name'];
+
+    $msg = "Dear $firstname $lastname ,\n$text";
+    $to = $row['email'];
+
+    mail($to,$subject,$msg,'From:'.$from);
+    echo "Email sent to: $to<br>";
 }
+mysqli_close($dbc);
 
 
 
