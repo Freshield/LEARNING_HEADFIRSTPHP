@@ -60,14 +60,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendemail.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sendemail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sendemail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="819">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1460852311753" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+                <marker date="1460852385315" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeemail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/removeemail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="removeemail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/removeemail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1460853520801" expanded="true" signature="228:273" placeholder="delete from " />
               </folding>
             </state>
           </provider>
@@ -81,6 +104,7 @@
         <option value="$PROJECT_DIR$/addemail.php" />
         <option value="$PROJECT_DIR$/sendemail.html" />
         <option value="$PROJECT_DIR$/sendemail.php" />
+        <option value="$PROJECT_DIR$/removeemail.php" />
       </list>
     </option>
   </component>
@@ -200,12 +224,12 @@
       <updated>1460757619915</updated>
       <workItem from="1460757621056" duration="2154000" />
       <workItem from="1460766362696" duration="322000" />
-      <workItem from="1460847578691" duration="3202000" />
+      <workItem from="1460847578691" duration="4401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5678000" />
+    <option name="totallyTimeSpent" value="6877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -334,11 +358,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sendemail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="819">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1460852311753" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+            <marker date="1460852385315" expanded="true" signature="195:219" placeholder="select * fro... email_list" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removeemail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removeemail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1460853520801" expanded="true" signature="228:273" placeholder="delete from " />
           </folding>
         </state>
       </provider>

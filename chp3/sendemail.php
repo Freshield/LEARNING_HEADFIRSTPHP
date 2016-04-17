@@ -21,7 +21,7 @@ while ($row = mysqli_fetch_array($result)){
     $msg = "Dear $firstname $lastname ,\n$text";
     $to = $row['email'];
 
-    mail($to,$subject,$msg,'From:'.$from);
+    mail($to,$subject,$msg);
     echo "Email sent to: $to<br>";
 }
 mysqli_close($dbc);
