@@ -35,7 +35,7 @@ else{
 
         echo "You forgot the email subject.<br>";
     }
-    if(empty($text)){
+    if(empty($text)) {
 
         echo "You forgot the email body text.<br>";
     }
@@ -43,9 +43,9 @@ else{
     <br>
     <form method="post" action="sendemail.php">
         <label for="subject">Subject of email:</label><br />
-        <input id="subject" name="subject" type="text" size="30" /><br />
+        <input id="subject" name="subject" type="text" size="30" value="<?php echo "$subject"; ?>"/><br />
         <label for="elvismail">Body of email:</label><br />
-        <textarea id="elvismail" name="elvismail" rows="8" cols="40"></textarea><br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="40"><?php echo"$text"; ?></textarea><br />
         <input type="submit" name="Submit" value="Submit" />
     </form>
 <?php
