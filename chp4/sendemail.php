@@ -10,21 +10,27 @@ $from = "zxdsw199182@gmail.com";
 $subject = $_POST['subject'];
 $text = $_POST['elvismail'];
 
-$query = "select * from email_list";
-$dbc = mysqli_connect('localhost','root','8888','elvis_store') or die("Error connecting to MySQL");
-$result = mysqli_query($dbc,$query) or die("Error querying database");
+if(!empty($subject) && !empty($subject)){
 
-while ($row = mysqli_fetch_array($result)){
-    $firstname = $row['first_name'];
-    $lastname = $row['last_name'];
+    $query = "select * from email_list";
+    $dbc = mysqli_connect('localhost','root','8888','elvis_store') or die("Error connecting to MySQL");
+    $result = mysqli_query($dbc,$query) or die("Error querying database");
 
-    $msg = "Dear $firstname $lastname ,\n$text";
-    $to = $row['email'];
+    while ($row = mysqli_fetch_array($result)){
+        $firstname = $row['first_name'];
+        $lastname = $row['last_name'];
 
-    mail($to,$subject,$msg);
-    echo "Email sent to: $to<br>";
+        $msg = "Dear $firstname $lastname ,\n$text";
+        $to = $row['email'];
+
+        mail($to,$subject,$msg);
+        echo "Email sent to: $to<br>";
+    }
+
+    echo "<br>Send mail finished";
+    mysqli_close($dbc);
 }
-mysqli_close($dbc);
+
 
 
 
