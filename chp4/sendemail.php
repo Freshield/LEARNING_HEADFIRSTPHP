@@ -10,7 +10,7 @@ $from = "zxdsw199182@gmail.com";
 $subject = $_POST['subject'];
 $text = $_POST['elvismail'];
 
-if(!empty($subject) && !empty($subject)){
+if(!empty($subject) && !empty($text)){
 
     $query = "select * from email_list";
     $dbc = mysqli_connect('localhost','root','8888','elvis_store') or die("Error connecting to MySQL");
@@ -31,13 +31,25 @@ if(!empty($subject) && !empty($subject)){
     mysqli_close($dbc);
 }
 else{
-    echo "You forgot the email subject and/or body text.<br>";
+    if(empty($subject)){
+
+        echo "You forgot the email subject.<br>";
+    }
+    if(empty($text)){
+
+        echo "You forgot the email body text.<br>";
+    }
+    ?>
+    <br>
+    <form method="post" action="sendemail.php">
+        <label for="subject">Subject of email:</label><br />
+        <input id="subject" name="subject" type="text" size="30" /><br />
+        <label for="elvismail">Body of email:</label><br />
+        <textarea id="elvismail" name="elvismail" rows="8" cols="40"></textarea><br />
+        <input type="submit" name="Submit" value="Submit" />
+    </form>
+<?php
 }
-
-
-
-
-
 
 
 ?>
