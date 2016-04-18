@@ -30,6 +30,9 @@ if(!empty($subject) && !empty($subject)){
     echo "<br>Send mail finished";
     mysqli_close($dbc);
 }
+else{
+    echo "You forgot the email subject and/or body text.<br>";
+}
 
 
 
