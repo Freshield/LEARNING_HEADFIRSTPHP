@@ -23,7 +23,7 @@
     if (!empty($name) && !empty($score)) {
       $target = GW_UPLOADPATH . $screenshot;
       // Connect to the database
-      $dbc = mysqli_connect('localhost', 'root', '8888', 'gwdb');
+      $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_PASSWORD);
 
       // Write the data to the database
       $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', '$score','$screenshot')";

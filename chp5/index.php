@@ -16,7 +16,7 @@
 //define('GW_UPLOADPATH',"images/");
 require_once('appvars.php');
 // Connect to the database
-$dbc = mysqli_connect('localhost', 'root', '8888', 'gwdb');
+$dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
 // Retrieve the score data from MySQL
 $query = "SELECT * FROM guitarwars";
