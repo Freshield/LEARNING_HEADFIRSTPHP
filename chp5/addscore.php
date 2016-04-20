@@ -10,13 +10,17 @@
   <h2>Guitar Wars - Add Your High Score</h2>
 
 <?php
+  define('GW_UPLOADPATH','images/');
+
   if (isset($_POST['submit'])) {
     // Grab the score data from the POST
     $name = $_POST['name'];
     $score = $_POST['score'];
     $screenshot = $_FILES['screenshot']['name'];
 
+
     if (!empty($name) && !empty($score)) {
+      $target = GW_UPLOADPATH . $screenshot;
       // Connect to the database
       $dbc = mysqli_connect('localhost', 'root', '8888', 'gwdb');
 
@@ -27,8 +31,11 @@
       // Confirm success with the user
       echo '<p>Thanks for adding your new high score!</p>';
       echo '<p><strong>Name:</strong> ' . $name . '<br />';
-      echo '<strong>Score:</strong> ' . $score . '</p>';
+      echo '<strong>Score:</strong> ' . $score .'<br/>';
+      echo '<img src="'. GW_UPLOADPATH.$screenshot . '" alt="Scre image" width="250"></p>';
       echo '<p><a href="index.php">&lt;&lt; Back to high scores</a></p>';
+
+      move_uploaded_file($_FILES['screenshot']['tmp_name'],$target);
 
       // Clear the score data to clear the form
       $name = "";
