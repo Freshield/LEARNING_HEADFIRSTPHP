@@ -16,7 +16,7 @@
     // Grab the score data from the POST
     $name = $_POST['name'];
     $score = $_POST['score'];
-    $screenshot = $_FILES['screenshot']['name'];
+    $screenshot = time() . $_FILES['screenshot']['name'];
 
 
     if (!empty($name) && !empty($score)) {
