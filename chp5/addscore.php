@@ -10,7 +10,8 @@
   <h2>Guitar Wars - Add Your High Score</h2>
 
 <?php
-  define('GW_UPLOADPATH','images/');
+  //define('GW_UPLOADPATH','images/');
+  require_once('appvars.php');
 
   if (isset($_POST['submit'])) {
     // Grab the score data from the POST

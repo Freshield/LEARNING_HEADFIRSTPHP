@@ -25,10 +25,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+            <state relative-caret-position="816">
+              <caret line="16" column="28" selection-start-line="15" selection-start-column="36" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <marker date="1461184105857" expanded="true" signature="766:790" placeholder="SELECT * FRO... guitarwars" />
+                <marker date="1461185969009" expanded="true" signature="797:821" placeholder="SELECT * FRO... guitarwars" />
               </folding>
             </state>
           </provider>
@@ -37,11 +37,21 @@
       <file leaf-file-name="addscore.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addscore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="624">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding>
-                <marker date="1461185425008" expanded="true" signature="924:997" placeholder="INSERT INTO guitarwars... " />
+                <marker date="1461185969009" expanded="true" signature="957:1030" placeholder="INSERT INTO guitarwars... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appvars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appvars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,6 +71,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/appvars.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/addscore.php" />
       </list>
@@ -173,15 +184,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461179502868</updated>
-      <workItem from="1461179504040" duration="4579000" />
+      <workItem from="1461179504040" duration="5138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4579000" />
+    <option name="totallyTimeSpent" value="5138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="7" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -219,22 +230,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appvars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+        <state relative-caret-position="816">
+          <caret line="16" column="28" selection-start-line="15" selection-start-column="36" selection-end-line="16" selection-end-column="28" />
           <folding>
-            <marker date="1461184105857" expanded="true" signature="766:790" placeholder="SELECT * FRO... guitarwars" />
+            <marker date="1461185969009" expanded="true" signature="797:821" placeholder="SELECT * FRO... guitarwars" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addscore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="624">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
-            <marker date="1461185425008" expanded="true" signature="924:997" placeholder="INSERT INTO guitarwars... " />
+            <marker date="1461185969009" expanded="true" signature="957:1030" placeholder="INSERT INTO guitarwars... " />
           </folding>
         </state>
       </provider>

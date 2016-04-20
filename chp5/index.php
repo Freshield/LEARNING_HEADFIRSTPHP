@@ -13,7 +13,8 @@
 
 <?php
 
-define('GW_UPLOADPATH',"images/");
+//define('GW_UPLOADPATH',"images/");
+require_once('appvars.php');
 // Connect to the database
 $dbc = mysqli_connect('localhost', 'root', '8888', 'gwdb');
 
