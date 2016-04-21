@@ -18,33 +18,51 @@
     $name = $_POST['name'];
     $score = $_POST['score'];
     $screenshot = time() . $_FILES['screenshot']['name'];
+    $screenshot_size = $_FILES['screenshot']['size'];
+    $screenshot_type = $_FILES['screenshot']['type'];
 
 
     if (!empty($name) && !empty($score)) {
-      $target = GW_UPLOADPATH . $screenshot;
-      // Connect to the database
-      $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
+      if((($screenshot_type == 'imge/gif') || ($screenshot_type == 'imge/jpeg') ||
+          ($screenshot_type == 'imge/pjpeg') || ($screenshot_type == 'imge/png')) &&
+          (($screenshot_size > 0)&&($screenshot_size<=GW_MAXFILESIZE))){
+        if($_FILES['error'] == 0){
+          $target = GW_UPLOADPATH . $screenshot;
+          // Connect to the database
+          $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
-      // Write the data to the database
-      $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', $score,'$screenshot');";
-      mysqli_query($dbc, $query);
+          // Write the data to the database
+          $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', $score,'$screenshot');";
+          mysqli_query($dbc, $query);
 
-      echo $query;
+          echo $query;
 
-      // Confirm success with the user
-      echo '<p>Thanks for adding your new high score!</p>';
-      echo '<p><strong>Name:</strong> ' . $name . '<br />';
-      echo '<strong>Score:</strong> ' . $score .'<br/>';
-      echo '<img src="'. GW_UPLOADPATH.$screenshot . '" alt="Scre image" width="250"></p>';
-      echo '<p><a href="index.php">&lt;&lt; Back to high scores</a></p>';
+          // Confirm success with the user
+          echo '<p>Thanks for adding your new high score!</p>';
+          echo '<p><strong>Name:</strong> ' . $name . '<br />';
+          echo '<strong>Score:</strong> ' . $score .'<br/>';
+          echo '<img src="'. GW_UPLOADPATH.$screenshot . '" alt="Scre image" width="250"></p>';
+          echo '<p><a href="index.php">&lt;&lt; Back to high scores</a></p>';
 
-      move_uploaded_file($_FILES['screenshot']['tmp_name'],$target);
+          move_uploaded_file($_FILES['screenshot']['tmp_name'],$target);
 
-      // Clear the score data to clear the form
-      $name = "";
-      $score = "";
+          // Clear the score data to clear the form
+          $name = "";
+          $score = "";
 
-      mysqli_close($dbc);
+          mysqli_close($dbc);
+        }
+        else{
+          echo '<p class="error">Sorry, there was a problem uploading your screen shot image.</p>';
+        }
+      }
+      else{
+        echo '<p class="error">The screen shot must be a GIF,JPEG,or PNG image file no greater than '.(GW_MAXFILESIZE/1024).' KB in size</p>';
+      }
+
+      @unlink($_FILES['screenshot']['tmp_name']);
+
+
     }
     else {
       echo '<p class="error">Please enter all of the information to add your high score.</p>';
@@ -54,7 +72,7 @@
 
   <hr />
   <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-    <input type="hidden" name="MAX_FILE_SIZE" value="3276800"/>
+    <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo GW_MAXFILESIZE; ?>"/>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" value="<?php if (!empty($name)) echo $name; ?>" /><br />
     <label for="score">Score:</label>

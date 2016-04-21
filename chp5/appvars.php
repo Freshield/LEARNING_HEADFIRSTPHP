@@ -6,6 +6,7 @@
  * Time: 16:58
  */
 define('GW_UPLOADPATH','images/');
+define('GW_MAXFILESIZE','3276800');
 
 define('DB_HOST','localhost');
 define('DB_USER','root');
