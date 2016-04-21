@@ -23,8 +23,8 @@
 
 
     if (!empty($name) && !empty($score)) {
-      if((($screenshot_type == 'imge/gif') || ($screenshot_type == 'imge/jpeg') ||
-          ($screenshot_type == 'imge/pjpeg') || ($screenshot_type == 'imge/png')) &&
+      if((($screenshot_type == 'image/gif') || ($screenshot_type == 'image/jpeg') ||
+          ($screenshot_type == 'image/pjpeg') || ($screenshot_type == 'image/jpg') || ($screenshot_type == 'image/png')) &&
           (($screenshot_size > 0)&&($screenshot_size<=GW_MAXFILESIZE))){
         if($_FILES['error'] == 0){
           $target = GW_UPLOADPATH . $screenshot;
