@@ -7,11 +7,11 @@ require_once ('authorize.php');
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Guitar Wars - Remove a High Score</title>
+    <title>Guitar Wars - Approve a High Score</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<h2>Guitar Wars - Remove a High Score</h2>
+<h2>Guitar Wars - Approve a High Score</h2>
 
 <?php
 /**
@@ -46,19 +46,19 @@ if(isset($_POST['submit'])){
 
         $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
-        $query = "delete from guitarwars where id = $id limit 1;";
+        $query = "update guitarwars set approved=1 where id=$id ";
 
         mysqli_query($dbc,$query);
         mysqli_close($dbc);
-        echo "<p>The high score of $score for $name was successfully removed.</p>";
+        echo "<p>The high score of $score for $name was successfully approved.</p>";
     }
     else{
-        echo "<p class='error'>The high score was not removed.</p>";
+        echo "<p class='error'>The high score was not approved.</p>";
     }
 }
 else if(isset($id)&&isset($name)&&isset($date)&&isset($score)&&isset($screenshot)){
     ?>
-    <p>Are you sure you want to delete the following high score?</p>
+    <p>Are you sure you want to approve the following high score?</p>
     <p>
         <strong>Name:</strong><?php echo $name; ?><br>
         <strong>Date:</strong><?php echo $date; ?><br>
