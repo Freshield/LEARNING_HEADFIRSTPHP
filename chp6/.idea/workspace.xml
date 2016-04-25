@@ -25,13 +25,13 @@
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1461789202052" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
-                <marker date="1461789202052" expanded="true" signature="978:1165" placeholder="..." />
-                <marker date="1461789202052" expanded="true" signature="981:1160" placeholder="..." />
+                <marker date="1461702949516" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
+                <marker date="1461702949516" expanded="true" signature="978:1165" placeholder="..." />
+                <marker date="1461702949516" expanded="true" signature="981:1160" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -195,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1462043878526</updated>
       <workItem from="1462043879683" duration="1614000" />
-      <workItem from="1461959848485" duration="1672000" />
+      <workItem from="1461959848485" duration="1822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3286000" />
+    <option name="totallyTimeSpent" value="3436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -247,9 +247,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461789202052" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
-            <marker date="1461789202052" expanded="true" signature="978:1165" placeholder="..." />
-            <marker date="1461789202052" expanded="true" signature="981:1160" placeholder="..." />
+            <marker date="1461702949516" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
+            <marker date="1461702949516" expanded="true" signature="978:1165" placeholder="..." />
+            <marker date="1461702949516" expanded="true" signature="981:1160" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -312,13 +312,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="768">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461789202052" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
-            <marker date="1461789202052" expanded="true" signature="978:1165" placeholder="..." />
-            <marker date="1461789202052" expanded="true" signature="981:1160" placeholder="..." />
+            <marker date="1461702949516" expanded="true" signature="616:670" placeholder="select * fro... guitarwars" />
+            <marker date="1461702949516" expanded="true" signature="978:1165" placeholder="..." />
+            <marker date="1461702949516" expanded="true" signature="981:1160" placeholder="..." />
           </folding>
         </state>
       </provider>
