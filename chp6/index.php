@@ -19,7 +19,7 @@ require_once('appvars.php');
 $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
 // Retrieve the score data from MySQL
-$query = "SELECT * FROM guitarwars order by score desc, date asc";
+$query = "SELECT * FROM guitarwars where approved=1 order by score desc, date asc";
 $data = mysqli_query($dbc, $query);
 
 $count = 0;

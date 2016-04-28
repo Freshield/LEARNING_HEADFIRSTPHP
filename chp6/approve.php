@@ -42,7 +42,6 @@ else{
 
 if(isset($_POST['submit'])){
     if($_POST['confirm'] == 'yes'){
-        @unlink(GW_UPLOADPATH.$screenshot);
 
         $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
@@ -63,7 +62,7 @@ else if(isset($id)&&isset($name)&&isset($date)&&isset($score)&&isset($screenshot
         <strong>Name:</strong><?php echo $name; ?><br>
         <strong>Date:</strong><?php echo $date; ?><br>
         <strong>Scroe:</strong><?php echo $score; ?><br>
-    <form action="removescore.php" method="post">
+    <form action="approve.php" method="post">
         <input type="radio" name="confirm" value="yes"/>Yes
         <input type="radio" name="confirm" value="no"/>No<br>
         <input type="submit" value="submit" name="submit"/>

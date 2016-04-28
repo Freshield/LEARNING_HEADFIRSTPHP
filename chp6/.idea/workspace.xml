@@ -25,13 +25,15 @@
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="1248">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-                <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-                <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
+                <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+                <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+                <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+                <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+                <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -50,8 +52,8 @@
       <file leaf-file-name="addscore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addscore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+            <state relative-caret-position="3120">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding>
                 <marker date="1461446199270" expanded="true" signature="1402:1475" placeholder="INSERT INTO guitarwars... " />
               </folding>
@@ -72,7 +74,7 @@
       <file leaf-file-name="removescore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/removescore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
+            <state relative-caret-position="3696">
               <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
               <folding>
                 <marker date="1461446876346" expanded="true" signature="1369:1414" placeholder="delete from " />
@@ -81,14 +83,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="approve.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="approve.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/approve.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="2832">
+              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
               <folding>
-                <marker date="1461447000358" expanded="true" signature="1371:1413" placeholder="update guita... " />
-                <marker date="1461447000358" expanded="true" signature="1371:1414" placeholder="update guita... " />
+                <marker date="1461361169428" expanded="true" signature="1327:1369" placeholder="update guita... " />
+                <marker date="1461361169428" expanded="true" signature="1327:1370" placeholder="update guita... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <marker date="1461361421559" expanded="true" signature="797:868" placeholder="SELECT * FRO... guitarwars" />
               </folding>
             </state>
           </provider>
@@ -100,10 +114,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/authorize.php" />
-        <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/addscore.php" />
         <option value="$PROJECT_DIR$/removescore.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/approve.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -147,7 +162,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,7 +194,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,18 +250,19 @@
       <workItem from="1461959848485" duration="2456000" />
       <workItem from="1461617204534" duration="547000" />
       <workItem from="1461531379903" duration="1509000" />
-      <workItem from="1461446662094" duration="339000" />
+      <workItem from="1461446662094" duration="1126000" />
+      <workItem from="1461361405957" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6465000" />
+    <option name="totallyTimeSpent" value="7274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="1184" y="26" width="832" height="1591" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -273,13 +299,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authorize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addscore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <marker date="1461446199270" expanded="true" signature="1402:1475" placeholder="INSERT INTO guitarwars... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appvars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removescore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding>
+            <marker date="1461446876346" expanded="true" signature="1369:1414" placeholder="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <marker date="1461361169428" expanded="true" signature="1327:1369" placeholder="update guita... " />
+            <marker date="1461361169428" expanded="true" signature="1327:1370" placeholder="update guita... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461361421559" expanded="true" signature="797:868" placeholder="SELECT * FRO... guitarwars" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-            <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-            <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -325,8 +425,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461447000358" expanded="true" signature="1371:1413" placeholder="update guita... " />
-            <marker date="1461447000358" expanded="true" signature="1371:1414" placeholder="update guita... " />
+            <marker date="1461361169428" expanded="true" signature="1327:1369" placeholder="update guita... " />
+            <marker date="1461361169428" expanded="true" signature="1327:1370" placeholder="update guita... " />
           </folding>
         </state>
       </provider>
@@ -337,9 +437,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-            <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-            <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -386,9 +488,11 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-            <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-            <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -435,9 +539,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-            <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-            <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -488,30 +594,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addscore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+        <state relative-caret-position="3120">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
           <folding>
             <marker date="1461446199270" expanded="true" signature="1402:1475" placeholder="INSERT INTO guitarwars... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461531689189" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
-            <marker date="1461531689189" expanded="true" signature="595:782" placeholder="..." />
-            <marker date="1461531689189" expanded="true" signature="598:777" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/removescore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
+        <state relative-caret-position="3696">
           <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
           <folding>
             <marker date="1461446876346" expanded="true" signature="1369:1414" placeholder="delete from " />
@@ -519,13 +612,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1461361056951" expanded="true" signature="233:287" placeholder="select * fro... guitarwars" />
+            <marker date="1461361056951" expanded="true" signature="595:778" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="598:777" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="828:1011" placeholder="..." />
+            <marker date="1461361056951" expanded="true" signature="830:1010" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/approve.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+        <state relative-caret-position="2832">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
-            <marker date="1461447000358" expanded="true" signature="1371:1413" placeholder="update guita... " />
-            <marker date="1461447000358" expanded="true" signature="1371:1414" placeholder="update guita... " />
+            <marker date="1461361169428" expanded="true" signature="1327:1369" placeholder="update guita... " />
+            <marker date="1461361169428" expanded="true" signature="1327:1370" placeholder="update guita... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <marker date="1461361421559" expanded="true" signature="797:868" placeholder="SELECT * FRO... guitarwars" />
           </folding>
         </state>
       </provider>
