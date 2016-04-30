@@ -35,7 +35,7 @@
           $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', $score,'$screenshot');";
           mysqli_query($dbc, $query);
 
-          echo $query;
+          //echo $query;
 
           // Confirm success with the user
           echo '<p>Thanks for adding your new high score!</p>';
