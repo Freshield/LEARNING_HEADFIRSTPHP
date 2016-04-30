@@ -63,6 +63,13 @@ else if(isset($id)&&isset($name)&&isset($date)&&isset($score)&&isset($screenshot
         <strong>Name:</strong><?php echo $name; ?><br>
         <strong>Date:</strong><?php echo $date; ?><br>
         <strong>Scroe:</strong><?php echo $score; ?><br>
+        <strong>Screenshot:</strong><?php
+
+        if(is_file(GW_UPLOADPATH . $screenshot) && filesize(GW_UPLOADPATH . $screenshot)>0){
+            echo '<img src="' .GW_UPLOADPATH. $screenshot . '" alt="Score image"  width="250"/>';
+        }
+
+        ?><br>
     <form action="removescore.php" method="post">
         <input type="radio" name="confirm" value="yes"/>Yes
         <input type="radio" name="confirm" value="no"/>No<br>
