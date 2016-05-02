@@ -72,7 +72,7 @@
         if (!empty($new_picture)) {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
             " birthdate = '$birthdate', city = '$city', state = '$state', picture = '$new_picture' WHERE user_id = '$user_id'";
-          echo $query;
+          //echo $query;
         }
         else {
           $query = "UPDATE mismatch_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .

@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 
         if(mysqli_num_rows($data) == 0){
             $query = "insert into mismatch_user (username,password,join_date) values ('$username',sha('$password1'),now())";
-            echo $query;
+            //echo $query;
             mysqli_query($dbc,$query);
             echo"<p>Your new account has been successfully created. You're now ready to log in and <a href='editprofile.php' >edit 
 your profile</a>.</p>";
