@@ -22,14 +22,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-48">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
-                <marker date="1229114004000" expanded="true" signature="840:955" placeholder="SELECT user_... mismatch_user" />
+                <marker date="1462212911690" expanded="true" signature="840:955" placeholder="SELECT user_... mismatch_user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewprofile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewprofile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="963">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+              <folding>
+                <marker date="1462212954642" expanded="true" signature="722:847" placeholder="SELECT usern... mismatch_user" />
+                <marker date="1462212954642" expanded="true" signature="877:1018" placeholder="SELECT usern... mismatch_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectvars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connectvars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,19 +60,37 @@
       <file leaf-file-name="appvars.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appvars.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connectvars.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/connectvars.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="1203">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+                <marker date="1462213052947" expanded="true" signature="711:786" placeholder="select user_... mismatch_user" />
+                <marker date="1462213052947" expanded="true" signature="711:822" placeholder="select user_... mismatch_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editprofile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editprofile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7680">
+              <caret line="139" column="89" selection-start-line="139" selection-start-column="89" selection-end-line="139" selection-end-column="89" />
+              <folding>
+                <marker date="1462213025655" expanded="true" signature="3576:3804" placeholder="UPDATE misma... " />
+                <marker date="1462213025655" expanded="true" signature="3875:4077" placeholder="UPDATE misma... " />
+                <marker date="1462213025655" expanded="true" signature="4595:4710" placeholder="SELECT first... mismatch_user" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,6 +101,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/connectvars.php" />
+        <option value="$PROJECT_DIR$/appvars.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/viewprofile.php" />
+        <option value="$PROJECT_DIR$/editprofile.php" />
+        <option value="$PROJECT_DIR$/login.php" />
       </list>
     </option>
   </component>
@@ -166,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462201468559</updated>
-      <workItem from="1462201469779" duration="1695000" />
+      <workItem from="1462201469779" duration="6025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1695000" />
+    <option name="totallyTimeSpent" value="6025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -205,20 +251,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1229114004000" expanded="true" signature="840:955" placeholder="SELECT user_... mismatch_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appvars.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -228,6 +264,51 @@
         <state relative-caret-position="240">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="963">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <folding>
+            <marker date="1462212954642" expanded="true" signature="722:847" placeholder="SELECT usern... mismatch_user" />
+            <marker date="1462212954642" expanded="true" signature="877:1018" placeholder="SELECT usern... mismatch_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7680">
+          <caret line="139" column="89" selection-start-line="139" selection-start-column="89" selection-end-line="139" selection-end-column="89" />
+          <folding>
+            <marker date="1462213025655" expanded="true" signature="3576:3804" placeholder="UPDATE misma... " />
+            <marker date="1462213025655" expanded="true" signature="3875:4077" placeholder="UPDATE misma... " />
+            <marker date="1462213025655" expanded="true" signature="4595:4710" placeholder="SELECT first... mismatch_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1462213052947" expanded="true" signature="711:786" placeholder="select user_... mismatch_user" />
+            <marker date="1462213052947" expanded="true" signature="711:822" placeholder="select user_... mismatch_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <marker date="1462212911690" expanded="true" signature="840:955" placeholder="SELECT user_... mismatch_user" />
+          </folding>
         </state>
       </provider>
     </entry>

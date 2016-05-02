@@ -1,3 +1,6 @@
+<?php
+require_once ('login.php');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -67,7 +70,7 @@
     }
     if (!empty($row['picture'])) {
       echo '<tr><td class="label">Picture:</td><td><img src="' . MM_UPLOADPATH . $row['picture'] .
-        '" alt="Profile Picture" /></td></tr>';
+        '" width="120" alt="Profile Picture" /></td></tr>';
     }
     echo '</table>';
     if (!isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) {

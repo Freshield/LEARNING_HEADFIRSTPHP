@@ -29,7 +29,7 @@
   echo '<table>';
   while ($row = mysqli_fetch_array($data)) {
     if (is_file(MM_UPLOADPATH . $row['picture']) && filesize(MM_UPLOADPATH . $row['picture']) > 0) {
-      echo '<tr><td><img src="' . MM_UPLOADPATH . $row['picture'] . '" alt="' . $row['first_name'] . '" /></td>';
+      echo '<tr><td><img src="' . MM_UPLOADPATH . $row['picture'] . '" width="120" alt="' . $row['first_name'] . '" /></td>';
     }
     else {
       echo '<tr><td><img src="' . MM_UPLOADPATH . 'nopic.jpg' . '" alt="' . $row['first_name'] . '" /></td>';
