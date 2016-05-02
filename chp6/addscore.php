@@ -23,11 +23,7 @@
     $screenshot_size = $_FILES['screenshot']['size'];
     $screenshot_type = $_FILES['screenshot']['type'];
 
-    echo "name is $name<br>";
-    echo "score is $score<br>";
-    echo "screenshot is $screenshot<br>";
-
-    if (!empty($name) && !empty($score)) {
+    if (!empty($name) && is_numeric($score)) {
       if((($screenshot_type == 'image/gif') || ($screenshot_type == 'image/jpeg') ||
           ($screenshot_type == 'image/pjpeg') || ($screenshot_type == 'image/jpg') || ($screenshot_type == 'image/png')) &&
           (($screenshot_size > 0)&&($screenshot_size<=GW_MAXFILESIZE))){
@@ -39,7 +35,7 @@
           $query = "INSERT INTO guitarwars (date,name,score,screenshot) VALUES (NOW(), '$name', $score,'$screenshot');";
           mysqli_query($dbc, $query);
 
-          echo $query;
+          //echo $query;
 
           // Confirm success with the user
           echo '<p>Thanks for adding your new high score!</p>';
