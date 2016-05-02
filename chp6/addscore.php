@@ -15,12 +15,17 @@
 
   if (isset($_POST['submit'])) {
     // Grab the score data from the POST
-    $name = $_POST['name'];
-    $score = $_POST['score'];
+    $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
+
+    $name = mysqli_real_escape_string($dbc,trim($_POST['name']));
+    $score = mysqli_real_escape_string($dbc,trim($_POST['score']));
     $screenshot = time() . $_FILES['screenshot']['name'];
     $screenshot_size = $_FILES['screenshot']['size'];
     $screenshot_type = $_FILES['screenshot']['type'];
 
+    echo "name is $name<br>";
+    echo "score is $score<br>";
+    echo "screenshot is $screenshot<br>";
 
     if (!empty($name) && !empty($score)) {
       if((($screenshot_type == 'image/gif') || ($screenshot_type == 'image/jpeg') ||
@@ -29,7 +34,6 @@
         if($_FILES['error'] == 0){
           $target = GW_UPLOADPATH . $screenshot;
           // Connect to the database
-          $dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
           // Write the data to the database
           $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', $score,'$screenshot',0);";
