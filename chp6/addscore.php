@@ -36,7 +36,7 @@
           // Connect to the database
 
           // Write the data to the database
-          $query = "INSERT INTO guitarwars VALUES (0, NOW(), '$name', $score,'$screenshot',0);";
+          $query = "INSERT INTO guitarwars (date,name,score,screenshot) VALUES (NOW(), '$name', $score,'$screenshot');";
           mysqli_query($dbc, $query);
 
           echo $query;
