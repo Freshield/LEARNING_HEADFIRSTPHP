@@ -11,7 +11,8 @@ require_once ('connectvars.php');
 if(!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])){
     header('HTTP/1.1 401 Unauthorized');
     header('WWW-Authenticate: Basic realm="Mismatch"');
-    exit('<h3>Mismatch</h3>Sorry, you must enter your username and password to log in and access this page');
+    exit('<h3>Mismatch</h3>Sorry, you must enter your username and password to log in and access this page. If you aren\'t a
+regisered member, please < a href = "signup.php" > signup</a > \')');
 }
 
 //connect to database
@@ -35,7 +36,8 @@ if(mysqli_num_rows($data) == 1){
 else{
     header('HTTP/1.1 401 Unauthorized');
     header('WWW-Authenticate: Basic realm="Mismatch"');
-    exit('<h3>Mismatch</h3>Sorry, you must enter your username and password to log in and access this page');
+    exit('<h3>Mismatch</h3>Sorry, you must enter your username and password to log in and access this page. If you aren\'t a 
+regisered member, please <a href="signup.php">signup</a>');
 }
 
 echo('<p class="login">You are logged in as '.$username.'.<p>');
