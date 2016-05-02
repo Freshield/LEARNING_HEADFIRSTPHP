@@ -5,15 +5,24 @@
  * Date: 2016/5/2
  * Time: 16:28
  */
+session_start();
 
-if(isset($_COOKIE['user_id'])){
+if(isset($_SESSION['user_id']) || isset($_SESSION['username'])){
+    $_SESSION = array();
 
-    setcookie('username','',time()-1000);
-    setcookie('user_id','',time()-1000);
+    if(isset($_COOKIE[session_name()])){
 
+
+        setcookie(session_name(),'',time()-1000);
+
+    }
+    
+    session_destroy();
+    
 }
 
-$home_url = 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']).'/index.php';
+
+$home_url = 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']).'index.php';
 header('Location: '.$home_url);
 
 ?>
