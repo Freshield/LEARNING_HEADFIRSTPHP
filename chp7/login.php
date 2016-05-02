@@ -100,6 +100,7 @@ if(empty($_COOKIE['user_id'])) {
     <?php
 }
 else{
+    $user_id = $_COOKIE['user_id'];
     echo "<p class='login'>You are logged in as {$_COOKIE['username']}</p>";
 }
 ?>
