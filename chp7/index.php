@@ -3,7 +3,9 @@
 session_start();
 
 if(!isset($_SESSION['user_id'])){
-  if (isset($COOKIE['user_id']) && isset($_COOKIE['username'])){
+  //echo "1<br>";
+  if (isset($_COOKIE['user_id']) && isset($_COOKIE['username'])){
+    //echo "2<br>";
     $_SESSION['user_id'] = $_COOKIE['user_id'];
     $_SESSION['username'] = $_COOKIE['username'];
   }
@@ -25,10 +27,10 @@ if(!isset($_SESSION['user_id'])){
   require_once('appvars.php');
   require_once('connectvars.php');
 
-//echo $_SESSION['user_id']<br>;
-//echo $_SESSION['username']<br>;
-//echo $_COOKIE['user_id']<br>;
-//echo $_COOKIE['username']<br>;
+//echo "session user_id is {$_SESSION['user_id']}<br>";
+//echo "session username is {$_SESSION['username']}<br>";
+//echo "cookie user_id is {$_COOKIE['user_id']}<br>";
+//echo "cookie username is {$_COOKIE['username']}<br>";
 
   if(isset($_SESSION['username'])){
     echo '&#10084; <a href="viewprofile.php">View Profile</a><br />';
