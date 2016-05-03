@@ -22,6 +22,9 @@ if(isset($_SESSION['user_id']) || isset($_SESSION['username'])){
 }
 
 
+setcookie('user_id','',time()-(30*60*60));
+setcookie('username','',time()-(30*60*60));
+
 $home_url = 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']).'index.php';
 header('Location: '.$home_url);
 
