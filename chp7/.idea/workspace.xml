@@ -203,8 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,11 +283,12 @@
       <workItem from="1462318959660" duration="21000" />
       <workItem from="1462320679990" duration="1663000" />
       <workItem from="1462322596460" duration="10000" />
+      <workItem from="1462477736413" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18150000" />
+    <option name="totallyTimeSpent" value="18187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -329,6 +330,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/editprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="140" column="2" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
+          <folding>
+            <marker date="1462322396064" expanded="true" signature="3241:3469" placeholder="UPDATE misma... " />
+            <marker date="1462322396064" expanded="true" signature="3542:3744" placeholder="UPDATE misma... " />
+            <marker date="1462322396064" expanded="true" signature="4262:4377" placeholder="SELECT first... mismatch_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
