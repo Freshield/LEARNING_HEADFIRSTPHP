@@ -57,12 +57,18 @@ $data = mysqli_query($dbc,$query);
 $responses = array();
 
 while($row = mysqli_fetch_array($data)){
-    $query2 = "select name,category from mismatch_topic where topic_id = '{$row['topic_id']}'";
+    $query2 = "select name,category_id from mismatch_topic where topic_id = '{$row['topic_id']}'";
     $data2 = mysqli_query($dbc,$query2);
     if(mysqli_num_rows($data2) == 1){
         $row2 = mysqli_fetch_array($data2);
         $row['topic_name'] = $row2['name'];
-        $row['category_name'] = $row2['category'];
+
+        $query3 = "select name from mismatch_category where category_id = '{$row2['category_id']}'";
+        $data3 = mysqli_query($dbc,$query3);
+        if(mysqli_num_rows($data3) == 1){
+            $row3 = mysqli_fetch_array($data3);
+            $row['category_name'] = $row3['name'];
+        }
         array_push($responses,$row);
     }else{
         echo"some problem";
