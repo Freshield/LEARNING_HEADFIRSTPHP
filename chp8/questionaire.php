@@ -50,29 +50,38 @@ if(isset($_POST['submit'])){
     echo "<p>Your responses have been saved.</p>";
 }
 
-$query = "select response_id,topic_id,response from mismatch_response where user_id = '{$_SESSION['user_id']}'";
+$query = "select mr.response_id,mr.topic_id,mr.response,mt.name as topic_name,mc.name as category_name from mismatch_response 
+as mr inner join mismatch_topic as mt using (topic_id) inner join mismatch_category as mc using (category_id) where 
+user_id = 
+'{$_SESSION['user_id']}'";
 
 //echo "$query<br>";
 $data = mysqli_query($dbc,$query);
 $responses = array();
 
 while($row = mysqli_fetch_array($data)){
-    $query2 = "select name,category_id from mismatch_topic where topic_id = '{$row['topic_id']}'";
-    $data2 = mysqli_query($dbc,$query2);
-    if(mysqli_num_rows($data2) == 1){
-        $row2 = mysqli_fetch_array($data2);
-        $row['topic_name'] = $row2['name'];
 
-        $query3 = "select name from mismatch_category where category_id = '{$row2['category_id']}'";
-        $data3 = mysqli_query($dbc,$query3);
-        if(mysqli_num_rows($data3) == 1){
-            $row3 = mysqli_fetch_array($data3);
-            $row['category_name'] = $row3['name'];
-        }
+    //$query2 = "select name,category_id from mismatch_topic where topic_id = '{$row['topic_id']}'";
+    //$query2 = "select mt.name as topic_name, mc.name as category_name
+   // from mismatch_topic as mt
+   // inner join mismatch_category as mc
+    //using (category_id)
+    //where mt.topic_id = '{$row['topic_id']}'";
+   // $data2 = mysqli_query($dbc,$query2);
+   // if(mysqli_num_rows($data2) == 1){
+
+       // $row2 = mysqli_fetch_array($data2);
+       // $row['topic_name'] = $row2['topic_name'];
+
+        //$query3 = "select name from mismatch_category where category_id = '{$row2['category_id']}'";
+        //$data3 = mysqli_query($dbc,$query3);
+        //if(mysqli_num_rows($data3) == 1){
+        //    $row3 = mysqli_fetch_array($data3);
+            //$row['category_name'] = $row2['category_name'];
+
+        //}
         array_push($responses,$row);
-    }else{
-        echo"some problem";
-    }
+    
 }
 
 mysqli_close($dbc);
