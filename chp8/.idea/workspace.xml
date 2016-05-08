@@ -61,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questionaire.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="questionaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questionaire.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1152">
@@ -85,6 +85,30 @@
                 <marker date="1462654360668" expanded="true" signature="2310:2366" placeholder="select name mismatch_category" />
                 <marker date="1462654360668" expanded="true" signature="2310:2389" placeholder="select name mismatch_category" />
                 <marker date="1462654360668" expanded="true" signature="2849:3026" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mymismatch.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mymismatch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1203">
+              <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+                <marker date="1462673249973" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
+                <marker date="1462673249973" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
+                <marker date="1462673249973" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
+                <marker date="1462673249973" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
+                <marker date="1462673249973" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
               </folding>
             </state>
           </provider>
@@ -146,6 +170,7 @@
         <option value="$PROJECT_DIR$/editprofile.php" />
         <option value="$PROJECT_DIR$/viewprofile.php" />
         <option value="$PROJECT_DIR$/questionaire.php" />
+        <option value="$PROJECT_DIR$/mymismatch.php" />
       </list>
     </option>
   </component>
@@ -219,6 +244,32 @@
     <property name="last_opened_file_path" value="C:/php-7.0.5-Win32-VC14-x86" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -234,12 +285,12 @@
       <updated>1462477773235</updated>
       <workItem from="1462477774434" duration="7825000" />
       <workItem from="1462565609201" duration="1233000" />
-      <workItem from="1462653189686" duration="870000" />
+      <workItem from="1462653189686" duration="4398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9928000" />
+    <option name="totallyTimeSpent" value="13456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -568,6 +619,28 @@
             <marker date="1462654360668" expanded="true" signature="2310:2366" placeholder="select name mismatch_category" />
             <marker date="1462654360668" expanded="true" signature="2310:2389" placeholder="select name mismatch_category" />
             <marker date="1462654360668" expanded="true" signature="2849:3026" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymismatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1462673249973" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
+            <marker date="1462673249973" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
+            <marker date="1462673249973" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
+            <marker date="1462673249973" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
+            <marker date="1462673249973" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
           </folding>
         </state>
       </provider>
