@@ -93,23 +93,33 @@
       <file leaf-file-name="mymismatch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mymismatch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1203">
-              <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+            <state relative-caret-position="627">
+              <caret line="97" column="79" selection-start-line="97" selection-start-column="79" selection-end-line="97" selection-end-column="79" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1462673249973" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
-                <marker date="1462673249973" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
-                <marker date="1462673249973" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
-                <marker date="1462673249973" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
-                <marker date="1462673249973" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
+                <marker date="1462674263722" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
+                <marker date="1462674263722" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
+                <marker date="1462674263722" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
+                <marker date="1462674263722" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
+                <marker date="1462674263722" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navmenu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navmenu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,6 +180,7 @@
         <option value="$PROJECT_DIR$/editprofile.php" />
         <option value="$PROJECT_DIR$/viewprofile.php" />
         <option value="$PROJECT_DIR$/questionaire.php" />
+        <option value="$PROJECT_DIR$/navmenu.php" />
         <option value="$PROJECT_DIR$/mymismatch.php" />
       </list>
     </option>
@@ -285,12 +296,12 @@
       <updated>1462477773235</updated>
       <workItem from="1462477774434" duration="7825000" />
       <workItem from="1462565609201" duration="1233000" />
-      <workItem from="1462653189686" duration="4398000" />
+      <workItem from="1462653189686" duration="5544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13456000" />
+    <option name="totallyTimeSpent" value="14602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -623,24 +634,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/navmenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mymismatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+        <state relative-caret-position="627">
+          <caret line="97" column="79" selection-start-line="97" selection-start-column="79" selection-end-line="97" selection-end-column="79" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1462673249973" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
-            <marker date="1462673249973" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
-            <marker date="1462673249973" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
-            <marker date="1462673249973" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
-            <marker date="1462673249973" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
+            <marker date="1462674263722" expanded="true" signature="656:704" placeholder="select * fro... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="656:705" placeholder="select * fro... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="656:727" placeholder="select * fro... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="656:728" placeholder="select * fro... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="814:992" placeholder="select mr.re... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="814:1015" placeholder="select mr.re... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="1282:1334" placeholder="select user_... mismatch_user" />
+            <marker date="1462674263722" expanded="true" signature="1282:1357" placeholder="select user_... mismatch_user" />
+            <marker date="1462674263722" expanded="true" signature="1463:1548" placeholder="select respo... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="1463:1566" placeholder="select respo... mismatch_response" />
+            <marker date="1462674263722" expanded="true" signature="2335:2425" placeholder="select usern... mismatch_user" />
+            <marker date="1462674263722" expanded="true" signature="2335:2426" placeholder="select usern... mismatch_user" />
           </folding>
         </state>
       </provider>

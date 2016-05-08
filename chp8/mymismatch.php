@@ -95,7 +95,7 @@ if(mysqli_num_rows($data) != 0){
         }
         echo "</td></tr></table>";
 
-        echo "<h4>You are mismatched on the following {count($mismatch_topic)} topics:</h4>";
+        echo "<h4>You are mismatched on the following ". count($mismatch_topics)." topics:</h4>";
         foreach ($mismatch_topics as $topics){
             echo "$topics<br>";
         }
