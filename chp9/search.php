@@ -13,6 +13,7 @@
 
 <?php
   // Grab the sort setting and search keywords from the URL using GET
+
   $sort = $_GET['sort'];
   $user_search = $_GET['usersearch'];
 
