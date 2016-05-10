@@ -62,38 +62,67 @@ function build_query($user_search,$sort){
     return $search_query;
 }
 
-function generate_sort_links($user_search,$sort){
+function generate_sort_links($user_search,$sort,$cur_page){
     $sort_links = '';
 
     switch ($sort){
         case 1:
-            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=2">Job Title</a></td>
+            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=2&page='.$cur_page.'">Job Title</a></td>
 <td>Description</td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3">State</a></td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5">Date Posted</a></td>';
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3&page='.$cur_page.'">State</a></td>
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5&page='.$cur_page.'">Date Posted</a></td>';
             break;
         case 3:
-            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1">Job Title</a></td>
+            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1&page='.$cur_page.'">Job Title</a></td>
 <td>Description</td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=4">State</a></td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5">Date Posted</a></td>';
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=4&page='.$cur_page.'">State</a></td>
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5&page='.$cur_page.'">Date Posted</a></td>';
             break;
         case 5:
-            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1">Job Title</a></td>
+            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1&page='.$cur_page.'">Job Title</a></td>
 <td>Description</td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3">State</a></td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=6">Date Posted</a></td>';
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3&page='.$cur_page.'">State</a></td>
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=6&page='.$cur_page.'">Date Posted</a></td>';
             break;
         default:
-            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1">Job Title</a></td>
+            $sort_links .= '<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=1&page='.$cur_page.'">Job Title</a></td>
 <td>Description</td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3">State</a></td>
-<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5">Date Posted</a></td>';
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=3&page='.$cur_page.'">State</a></td>
+<td><a href="'.$_SERVER['PHP_SELF'].'?usersearch='.$user_search.'&sort=5&page='.$cur_page.'">Date Posted</a></td>';
             break;
 
     }
     return $sort_links;
 
+}
+
+function generate_page_links($user_search,$sort,$cur_page,$num_page){
+    $page_link = '';
+
+    if($cur_page != 1){
+        $page_link .= "<a href='{$_SERVER['PHP_SELF']}?usersearch=$user_search&sort=$sort&page=".($cur_page-1)."'><-</a>";
+    }
+    else{
+        $page_link .= "<- ";
+    }
+
+    for($i = 1;$i <= $num_page;$i++){
+        if($i == $cur_page){
+            $page_link .= ' '.$i;
+        }
+        else{
+            $page_link .="<a href='{$_SERVER['PHP_SELF']}?usersearch=$user_search&sort=$sort&page=$i'> 
+$i</a>";
+        }
+    }
+
+    if($cur_page != $num_page){
+        $page_link .= "<a href='{$_SERVER['PHP_SELF']}?usersearch=$user_search&sort=$sort&page=".($cur_page+1)."'>-></a>";
+    }
+    else{
+        $page_link .= ' ->';
+    }
+    return $page_link;
 }
 
 ?>
