@@ -37,10 +37,10 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="327">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
-                <marker date="1462843052491" expanded="true" signature="1170:1193" placeholder="SELECT * FRO... riskyjobs" />
+                <marker date="1462844070759" expanded="true" signature="1406:1429" placeholder="SELECT * FRO... riskyjobs" />
               </folding>
             </state>
           </provider>
@@ -143,12 +143,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462396137178</updated>
-      <workItem from="1462396138340" duration="2761000" />
+      <workItem from="1462396138340" duration="3435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2761000" />
+    <option name="totallyTimeSpent" value="3435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -211,10 +211,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="327">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <marker date="1462843052491" expanded="true" signature="1170:1193" placeholder="SELECT * FRO... riskyjobs" />
+            <marker date="1462844070759" expanded="true" signature="1406:1429" placeholder="SELECT * FRO... riskyjobs" />
           </folding>
         </state>
       </provider>

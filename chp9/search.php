@@ -16,8 +16,16 @@
 
   $sort = $_GET['sort'];
   $user_search = $_GET['usersearch'];
-  $search_word = explode(' ',$user_search);
-
+  $clean_search = str_replace(',',' ',$user_search);
+  $search_word = explode(' ',$clean_search);
+  $final_search_words = array();
+  if(count($search_word) > 0){
+    foreach ($search_word as $word){
+      if(!empty($word)){
+        $final_search_words[] = $word;
+      }
+    }
+  }
   // Start generating the table of results
   echo '<table border="0" cellpadding="2">';
 
@@ -33,9 +41,12 @@
   // Query to get the results
   $query = "SELECT * FROM riskyjobs";
   $where_list = array();
-  foreach ($search_word as $word){
-    $where_list[] = " description like '%$word%'";
+  if(count($final_search_words) > 0){
+    foreach ($final_search_words as $word){
+      $where_list[] = " description like '%$word%'";
+    }
   }
+
   $where_clause = implode(' OR ',$where_list);
 
   if(!empty($where_clause)){
