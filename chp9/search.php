@@ -23,15 +23,14 @@
 
   // Generate the search result headings
   echo '<tr class="heading">';
-  echo '<td>Job Title</td><td>Description</td><td>State</td><td>Date Posted</td>';
-  echo '</tr>';
+  echo generate_sort_links($user_search,$sort);
 
   // Connect to the database
   require_once('connectvars.php');
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
   // Query to get the results
-  $query = build_query($user_search);
+  $query = build_query($user_search,$sort);
 
   $result = mysqli_query($dbc, $query);
   while ($row = mysqli_fetch_array($result)) {
