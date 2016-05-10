@@ -16,6 +16,7 @@
 
   $sort = $_GET['sort'];
   $user_search = $_GET['usersearch'];
+  $search_word = explode(' ',$user_search);
 
   // Start generating the table of results
   echo '<table border="0" cellpadding="2">';
@@ -30,7 +31,16 @@
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
   // Query to get the results
-  $query = "SELECT * FROM riskyjobs WHERE title = '$user_search'";
+  $query = "SELECT * FROM riskyjobs";
+  $where_list = array();
+  foreach ($search_word as $word){
+    $where_list[] = " description like '%$word%'";
+  }
+  $where_clause = implode(' OR ',$where_list);
+
+  if(!empty($where_clause)){
+    $query .= " where $where_clause ";
+  }
   $result = mysqli_query($dbc, $query);
   while ($row = mysqli_fetch_array($result)) {
     echo '<tr class="results">';
