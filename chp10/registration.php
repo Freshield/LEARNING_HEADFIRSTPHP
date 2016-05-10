@@ -12,6 +12,22 @@
   <h3>Risky Jobs - Registration</h3>
 
 <?php
+  function win_checkdnsrr($domain,$recType=''){
+    if(!empty($domain)){
+      if($recType == '') $recType='MX';
+      exec("nslookup -type=$recType $domain",$output);
+      foreach ($output as $line){
+        if(preg_match("/^$domain/",$line)){
+          return true;
+        }
+      }
+      return false;
+
+    }
+    return false;
+  }
+
+
   if (isset($_POST['submit'])) {
     $first_name = $_POST['firstname'];
     $last_name = $_POST['lastname'];
@@ -33,10 +49,17 @@
       $output_form = 'yes';
     }
 
-    if (empty($email)) {
-      // $email is blank
-      echo '<p class="error">You forgot to enter your email address.</p>';
+    $pattern = '/^[a-zA-Z0-9][a-zA-Z0-9\._\-&!?=#]*@/';
+    if(!preg_match($pattern,$email)){
+      echo 'Your email address is invalid.<br>';
       $output_form = 'yes';
+    }
+    else{
+      $domain = preg_replace($pattern,'',$email);
+      if(!win_checkdnsrr($domain)){
+        echo 'Your email address is invalid.<br>';
+        $output_form = 'yes';
+      }
     }
     $phone_st = "/^\(?[2-9]\d{2}\)?[-\s]\d{3}-\d{4}$/";
     if (!preg_match($phone_st,$phone)) {
