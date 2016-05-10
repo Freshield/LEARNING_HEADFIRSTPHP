@@ -4,6 +4,7 @@
     <list default="true" id="ac033094-b409-4607-ba6c-c92298991958" name="Default" comment="" />
     <ignored path="chp10.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +25,29 @@
       <file leaf-file-name="registration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="963">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding>
+                <marker date="1462909410070" expanded="true" signature="2154:2970" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2163:2329" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2338:2499" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2508:2652" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2661:2805" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2814:2959" placeholder="..." />
+                <marker date="1462909410070" expanded="true" signature="2976:3201" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/registration.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -110,12 +126,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462903278610</updated>
-      <workItem from="1462903279788" duration="1635000" />
+      <workItem from="1462903279788" duration="2893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1635000" />
+    <option name="totallyTimeSpent" value="2893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -150,9 +166,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="963">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <marker date="1462909410070" expanded="true" signature="2154:2970" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2163:2329" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2338:2499" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2508:2652" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2661:2805" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2814:2959" placeholder="..." />
+            <marker date="1462909410070" expanded="true" signature="2976:3201" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

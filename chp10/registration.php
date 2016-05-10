@@ -38,12 +38,16 @@
       echo '<p class="error">You forgot to enter your email address.</p>';
       $output_form = 'yes';
     }
-
-    if (empty($phone)) {
+    $phone_st = "/^\(?[2-9]\d{2}\)?[-\s]\d{3}-\d{4}$/";
+    if (!preg_match($phone_st,$phone)) {
       // $phone is blank
-      echo '<p class="error">You forgot to enter your phone number.</p>';
+      echo '<p class="error">Your phone number is invalid</p>';
       $output_form = 'yes';
     }
+    //else{
+    //  $new_phone = preg_replace('/[\(\)\-\s]/','',$phone);
+    //  $phone = $new_phone;
+    //}
 
     if (empty($job)) {
       // $job is blank
