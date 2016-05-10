@@ -56,7 +56,7 @@
     }
     else{
       $domain = preg_replace($pattern,'',$email);
-      if(!win_checkdnsrr($domain)){
+      if(!checkdnsrr($domain)){
         echo 'Your email address is invalid.<br>';
         $output_form = 'yes';
       }
