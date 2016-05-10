@@ -13,19 +13,11 @@
 
 <?php
   // Grab the sort setting and search keywords from the URL using GET
+  require_once ('functions.php');
 
   $sort = $_GET['sort'];
   $user_search = $_GET['usersearch'];
-  $clean_search = str_replace(',',' ',$user_search);
-  $search_word = explode(' ',$clean_search);
-  $final_search_words = array();
-  if(count($search_word) > 0){
-    foreach ($search_word as $word){
-      if(!empty($word)){
-        $final_search_words[] = $word;
-      }
-    }
-  }
+
   // Start generating the table of results
   echo '<table border="0" cellpadding="2">';
 
@@ -39,26 +31,15 @@
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
   // Query to get the results
-  $query = "SELECT * FROM riskyjobs";
-  $where_list = array();
-  if(count($final_search_words) > 0){
-    foreach ($final_search_words as $word){
-      $where_list[] = " description like '%$word%'";
-    }
-  }
+  $query = build_query($user_search);
 
-  $where_clause = implode(' OR ',$where_list);
-
-  if(!empty($where_clause)){
-    $query .= " where $where_clause ";
-  }
   $result = mysqli_query($dbc, $query);
   while ($row = mysqli_fetch_array($result)) {
     echo '<tr class="results">';
     echo '<td valign="top" width="20%">' . $row['title'] . '</td>';
-    echo '<td valign="top" width="50%">' . $row['description'] . '</td>';
+    echo '<td valign="top" width="50%">' . substr($row['description'],0,100) . '...</td>';
     echo '<td valign="top" width="10%">' . $row['state'] . '</td>';
-    echo '<td valign="top" width="20%">' . $row['date_posted'] . '</td>';
+    echo '<td valign="top" width="20%">' . substr($row['date_posted'],0,10) . '</td>';
     echo '</tr>';
   } 
   echo '</table>';
