@@ -11,8 +11,9 @@ define('CAPTCHA_WIDTH',100);
 define('CAPTCHA_HEIGHT',25);
 
 $pass_phrase = "";
+
 for($i = 0;$i<CAPTCHA_NUMCHARS;$i++){
-    $pass_phrase .= char(rand(97,122));
+    $pass_phrase .= chr(rand(97,122));
 }
 
 //create image
@@ -25,7 +26,7 @@ $graphic_color = imagecolorallocate($img,64,64,64);
 
 //fill the background
 
-imagefilledrectangle($img,0,0,CAPTCHA_HEIGHT,CAPTCHA_WIDTH,$bg_color);
+imagefilledrectangle($img,0,0,CAPTCHA_WIDTH,CAPTCHA_HEIGHT,$bg_color);
 
 //draw some random lines
 
@@ -45,9 +46,6 @@ imagettftext($img,18,0,5,CAPTCHA_HEIGHT-5,$text_color,'Courier New Bold.ttf',$pa
 
 header("Content-type: image/png");
 imagepng($img);
-
-echo $img;
-
 imagedestroy($img);
 
 ?>
