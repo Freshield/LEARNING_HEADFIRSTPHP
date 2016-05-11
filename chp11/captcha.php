@@ -1,5 +1,5 @@
 <?php
-  //session_start();
+  session_start();
 
   // Set some important CAPTCHA constants
   define('CAPTCHA_NUMCHARS', 6);  // number of characters in pass-phrase
@@ -13,7 +13,8 @@
   }
 
   // Store the encrypted pass-phrase in a session variable
-  //$_SESSION['pass_phrase'] = SHA($pass_phrase);
+  $_SESSION['pass_phrase'] = sha1($pass_phrase);
+  
 
   // Create the image
   $img = imagecreatetruecolor(CAPTCHA_WIDTH, CAPTCHA_HEIGHT);

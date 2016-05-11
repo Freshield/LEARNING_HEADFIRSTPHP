@@ -22,55 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="graphics.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphics.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="captcha.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="captcha.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/captcha.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="192">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captcha_m.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/captcha_m.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="approvescore.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/approvescore.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1056">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
               <folding>
-                <marker date="1229400494000" expanded="true" signature="1426:1472" placeholder="UPDATE guita... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addscore.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addscore.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1225758294000" expanded="true" signature="1634:1737" placeholder="INSERT INTO guitarwars... " />
+                <marker date="1463002129765" expanded="true" signature="808:881" placeholder="SELECT * FRO... guitarwars" />
               </folding>
             </state>
           </provider>
@@ -86,17 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authorize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connectvars.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connectvars.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connectvars.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -106,13 +64,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="addscore.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addscore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+            <state relative-caret-position="2400">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
-                <marker date="1463002129765" expanded="true" signature="808:881" placeholder="SELECT * FRO... guitarwars" />
+                <marker date="1463003076416" expanded="true" signature="1783:1886" placeholder="INSERT INTO guitarwars... " />
               </folding>
             </state>
           </provider>
@@ -132,11 +90,12 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/graphics.php" />
-        <option value="$PROJECT_DIR$/captcha.php" />
         <option value="$PROJECT_DIR$/captcha_m.php" />
         <option value="$PROJECT_DIR$/appvars.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/connectvars.php" />
+        <option value="$PROJECT_DIR$/captcha.php" />
+        <option value="$PROJECT_DIR$/addscore.php" />
       </list>
     </option>
   </component>
@@ -257,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1462995121138</updated>
       <workItem from="1462995122312" duration="3275000" />
-      <workItem from="1462998913360" duration="2977000" />
+      <workItem from="1462998913360" duration="4374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6252000" />
+    <option name="totallyTimeSpent" value="7649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -328,14 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/captcha_m.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="963">
@@ -354,23 +305,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addscore.php">
+    <entry file="file://$PROJECT_DIR$/authorize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1225758294000" expanded="true" signature="1634:1737" placeholder="INSERT INTO guitarwars... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
-          <folding>
-            <marker date="1463002129765" expanded="true" signature="808:881" placeholder="SELECT * FRO... guitarwars" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -382,18 +321,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authorize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connectvars.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding>
+            <marker date="1463002129765" expanded="true" signature="808:881" placeholder="SELECT * FRO... guitarwars" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addscore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <marker date="1463003076416" expanded="true" signature="1783:1886" placeholder="INSERT INTO guitarwars... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding />
         </state>
       </provider>
