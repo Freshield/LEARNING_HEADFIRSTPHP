@@ -31,9 +31,10 @@ $query = "select * from mismatch_response where user_id = '{$_SESSION['user_id']
 $data = mysqli_query($dbc,$query);
 
 if(mysqli_num_rows($data) != 0){
-    $query = "select mr.response_id,mr.topic_id,mr.response,mt.name as topic_name
+    $query = "select mr.response_id,mr.topic_id,mr.response,mt.name as topic_name, mc.name as categoary_name
     from mismatch_response as mr
     inner join mismatch_topic as mt using (topic_id)
+    inner join mismatch_category as mc using (category_id)
     where mr.user_id = '{$_SESSION['user_id']}'";
 
     $data = mysqli_query($dbc,$query);
@@ -59,10 +60,12 @@ if(mysqli_num_rows($data) != 0){
         }
         $score = 0;
         $topic = array();
+        $categorys = array();
         for($i = 0;$i<count($user_response);$i++){
             if(((int)$user_response[$i]['response'])+((int)$mismatch_responses[$i]['response']) == 3){
                 $score += 1;
                 array_push($topic,$user_response[$i]['topic_name']);
+                array_push($categorys,$user_response[$i]['category_name']);
             }
 
         }
