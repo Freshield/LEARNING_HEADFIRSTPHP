@@ -1,51 +1,36 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: FRESHIELD
- * Date: 2016/5/11
- * Time: 15:48
- */
+  session_start();
 
-define('CAPTCHA_NUMCHARS',6);
-define('CAPTCHA_WIDTH',100);
-define('CAPTCHA_HEIGHT',25);
+  // Set some important CAPTCHA constants
+  define('CAPTCHA_NUMCHARS', 6);  // number of characters in pass-phrase
+  define('CAPTCHA_WIDTH', 100);   // width of image
+  define('CAPTCHA_HEIGHT', 25);   // height of image
 
-$pass_phrase = "";
-for($i = 0;$i<CAPTCHA_NUMCHARS;$i++){
-    $pass_phrase .= char(rand(97,122));
-}
+  // Generate the random pass-phrase
+  $pass_phrase = "";
+  for ($i = 0; $i < CAPTCHA_NUMCHARS; $i++) {    $pass_phrase .= chr(rand(97, 122));  }
 
-//create image
-$img = imagecreatetruecolor(CAPTCHA_WIDTH,CAPTCHA_HEIGHT);
+  // Store the encrypted pass-phrase in a session variable
+  $_SESSION['pass_phrase'] = SHA($pass_phrase);
 
-//set white background with black text and gray graphics
-$bg_color = imagecolorallocate($img,255,255,255);
-$text_color = imagecolorallocate($img,0,0,0);
-$graphic_color = imagecolorallocate($img,64,64,64);
+  // Create the image  $img = imagecreatetruecolor(CAPTCHA_WIDTH, CAPTCHA_HEIGHT);  // Set a white background with black text and gray graphics  $bg_color = imagecolorallocate($img, 255, 255, 255);     // white  $text_color = imagecolorallocate($img, 0, 0, 0);         // black  $graphic_color = imagecolorallocate($img, 64, 64, 64);   // dark gray
 
-//fill the background
+  // Fill the background
+  imagefilledrectangle($img, 0, 0, CAPTCHA_WIDTH, CAPTCHA_HEIGHT, $bg_color);
+  // Draw some random lines
+  for ($i = 0; $i < 5; $i++) {
+    imageline($img, 0, rand() % CAPTCHA_HEIGHT, CAPTCHA_WIDTH, rand() % CAPTCHA_HEIGHT, $graphic_color);
+  }
 
-imagefilledrectangle($img,0,0,CAPTCHA_HEIGHT,CAPTCHA_WIDTH,$bg_color);
+  // Sprinkle in some random dots
+  for ($i = 0; $i < 50; $i++) {
+    imagesetpixel($img, rand() % CAPTCHA_WIDTH, rand() % CAPTCHA_HEIGHT, $graphic_color);
+  }
+  // Draw the pass-phrase string
+  imagettftext($img, 18, 0, 5, CAPTCHA_HEIGHT - 5, $text_color, 'Courier New Bold.ttf', $pass_phrase);
 
-//draw some random lines
+  // Output the image as a PNG using a header  header("Content-type: image/png");  imagepng($img);
 
-for($i = 0;$i<5;$i++){
-    imageline($img,0,rand()%CAPTCHA_HEIGHT,CAPTCHA_WIDTH,rand()%CAPTCHA_HEIGHT,$graphic_color);
-}
-
-//sprikle in some random dots
-
-for($i=0;$i<50;$i++){
-    imagesetpixel($img,rand()%CAPTCHA_WIDTH,rand()%CAPTCHA_HEIGHT,$graphic_color);
-}
-
-//draw the pass-pharase string
-
-imagettftext($img,18,0,5,CAPTCHA_HEIGHT-5,$text_color,'Courier New Bold.ttf',$pass_phrase);
-
-header("Content-type: image/png");
-imagepng($img);
-
-
-
+  // Clean up
+  imagedestroy($img);
 ?>
