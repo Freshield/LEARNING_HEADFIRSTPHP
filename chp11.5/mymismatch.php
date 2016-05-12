@@ -31,7 +31,7 @@ $query = "select * from mismatch_response where user_id = '{$_SESSION['user_id']
 $data = mysqli_query($dbc,$query);
 
 if(mysqli_num_rows($data) != 0){
-    $query = "select mr.response_id,mr.topic_id,mr.response,mt.name as topic_name, mc.name as categoary_name
+    $query = "select mr.response_id,mr.topic_id,mr.response,mt.name as topic_name, mc.name as category_name
     from mismatch_response as mr
     inner join mismatch_topic as mt using (topic_id)
     inner join mismatch_category as mc using (category_id)
@@ -103,6 +103,24 @@ if(mysqli_num_rows($data) != 0){
             echo "$topics<br>";
         }
         echo "<h4>View <a href='viewprofile.php?user_id=$mismatch_user_id'>{$row['first_name']}'s profile</a></h4>";
+
+        $category_totals = array(array($categorys[0],0));//
+        foreach ($categorys as $category){
+            if($category_totals[count($category_totals)-1][0] != $category){
+                array_push($category_totals,array($category,1));
+            }
+            else{
+                $category_totals[count($category_totals)-1][1]++;
+            }
+            //echo "$category<br>";
+
+        }
+        for ($i = 0;$i<count($category_totals);$i++){
+            //echo "category is {$category_totals[$i][0]}, value is {$category_totals[$i][1]}.<br>";
+        }
+        echo "<h4>Mismatched category breakdown:</h4>";
+        draw_bar_graph(480,120,$category_totals,5,MM_UPLOADPATH.sha1($_SESSION['user_id']).'mymismatchgraph.png');
+        echo "<img src=".MM_UPLOADPATH.sha1($_SESSION['user_id'])."mymismatchgraph.png alt='Mismatch category graph'><br>";
     }
 
 }
