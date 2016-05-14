@@ -34,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exception.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exception.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exception.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1056">
               <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/object.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
               </folding>
@@ -53,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/mysql_error.php" />
         <option value="$PROJECT_DIR$/exception.php" />
+        <option value="$PROJECT_DIR$/object.php" />
       </list>
     </option>
   </component>
@@ -159,12 +172,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463250484605</updated>
-      <workItem from="1463250485812" duration="1327000" />
+      <workItem from="1463250485812" duration="1874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1327000" />
+    <option name="totallyTimeSpent" value="1874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -211,6 +224,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
